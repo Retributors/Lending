@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Квартиры в центре Алматы</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Элитные квартиры в центре Алматы</h1>
+            <p>Комфорт, безопасность и удобное расположение</p>
+            <button class="btn" onclick="scrollToForm()">Оставить заявку</button>
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="container">
+            <h2>Почему выбирают нас?</h2>
+            <div class="feature-list">
+                <div class="feature-item">✅ Панорамный вид на горы</div>
+                <div class="feature-item">✅ Охраняемая территория</div>
+                <div class="feature-item">✅ Современный дизайн</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="container">
+            <h2>Галерея</h2>
+            <div class="gallery-grid">
+                <img src="https://source.unsplash.com/400x300/?apartment,building" alt="Квартира">
+                <img src="https://source.unsplash.com/400x300/?livingroom" alt="Гостиная">
+                <img src="https://source.unsplash.com/400x300/?city,view" alt="Вид из окна">
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Оставьте заявку</h2>
+            <form class="contact-form" id="contactForm">
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="tel" placeholder="Ваш телефон" required>
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
